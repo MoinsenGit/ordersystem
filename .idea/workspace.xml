@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef54b465-41b1-405e-8d14-a03d3482927c" name="Changes" comment="classes added">
+    <list default="true" id="ef54b465-41b1-405e-8d14-a03d3482927c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/OrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/OrderRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/ProductRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/ShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/de/neuefische/ShopServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/ShopServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,9 +170,9 @@
       <list>
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ShopServiceTest" />
+        <item itemvalue="JUnit.ShopServiceTest.addNewOrder" />
         <item itemvalue="JUnit.ShopServiceTest.addNewOrderToOrderList" />
         <item itemvalue="JUnit.ShopServiceTest.showOneProductOnConsole" />
-        <item itemvalue="JUnit.ShopServiceTest.addNewOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +184,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669970293699</updated>
-      <workItem from="1669970294814" duration="46967000" />
+      <workItem from="1669970294814" duration="58921000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669970917059</created>
@@ -203,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670019381196</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="classes added">
+      <created>1670227547476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670227547477</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +230,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="classes added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ordersystem$ShopServiceTest.ic" NAME="ShopServiceTest Coverage Results" MODIFIED="1670185451049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/ordersystem$ShopServiceTest.ic" NAME="ShopServiceTest Coverage Results" MODIFIED="1670228557462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>de.neuefische.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ordersystem$ShopServiceTest_addNewOrder.ic" NAME="ShopServiceTest.addNewOrder Coverage Results" MODIFIED="1670228475833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>de.neuefische.*</FILTER>
     </SUITE>
   </component>

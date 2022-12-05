@@ -8,7 +8,7 @@ import lombok.Data;
 
 public class Product {
     String id; // Produkt-ID
-    String name; // Name des Produktes zur Produkt-ID
+    String name; // Name des Produktes zur entsprechenden Produkt-ID
 
 
 }

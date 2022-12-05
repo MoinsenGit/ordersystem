@@ -18,6 +18,8 @@ public class OrderRepo {
 
     // Methode zum Zurückgeben einer Order zu einer bestimmten ID
     public Order getOrder(String id) {
+        // for Schleife: for (int i = 0; i < max; i++) { Statements }
+        //
         for (int i = 0; i < orders.size(); i++) {
             Order orderFromListOrders = orders.get(i);  // geht die einzelnen Orders durch und bekommt eine Order (id und List<Product> zurück
             String orderId = orderFromListOrders.getId();
@@ -30,6 +32,7 @@ public class OrderRepo {
 
     // Methode zum Hinzufügen von einer Bestellung zur List<Order> orders
     public void addOrder (Order orderToAdd) {
+
         orders.add(orderToAdd);
     }
     }
