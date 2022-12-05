@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef54b465-41b1-405e-8d14-a03d3482927c" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/OrderRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/ProductRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/ShopService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/ShopServiceTest.java" afterDir="false" />
+    <list default="true" id="ef54b465-41b1-405e-8d14-a03d3482927c" name="Changes" comment="classes added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/OrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/OrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/neuefische/ShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/neuefische/ShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/de/neuefische/ShopServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/neuefische/ShopServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +69,10 @@
     "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,7 +84,36 @@
       <recent name="de.neuefische" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.Main" />
+      <module name="ordersystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ordersystem" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.ShopServiceTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShopServiceTest.addNewOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ordersystem" />
       <extension name="coverage">
@@ -98,8 +130,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShopServiceTest.addNewOrderToOrderList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ordersystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.ShopServiceTest" />
+      <option name="METHOD_NAME" value="addNewOrderToOrderList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopServiceTest.showOneProductOnConsole" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ordersystem" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.neuefische.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.neuefische" />
+      <option name="MAIN_CLASS_NAME" value="de.neuefische.ShopServiceTest" />
+      <option name="METHOD_NAME" value="showOneProductOnConsole" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.ShopServiceTest" />
+      <item itemvalue="JUnit.ShopServiceTest.addNewOrder" />
+      <item itemvalue="JUnit.ShopServiceTest.addNewOrderToOrderList" />
+      <item itemvalue="JUnit.ShopServiceTest.showOneProductOnConsole" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ShopServiceTest" />
+        <item itemvalue="JUnit.ShopServiceTest.addNewOrderToOrderList" />
+        <item itemvalue="JUnit.ShopServiceTest.showOneProductOnConsole" />
         <item itemvalue="JUnit.ShopServiceTest.addNewOrder" />
       </list>
     </recent_temporary>
@@ -112,7 +187,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669970293699</updated>
-      <workItem from="1669970294814" duration="28749000" />
+      <workItem from="1669970294814" duration="46967000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1669970917059</created>
@@ -121,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669970917059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="classes added">
+      <created>1670019381196</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670019381196</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +222,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="classes added" />
+    <option name="LAST_COMMIT_MESSAGE" value="classes added" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ordersystem$ShopServiceTest.ic" NAME="ShopServiceTest Coverage Results" MODIFIED="1670185451049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>de.neuefische.*</FILTER>
+    </SUITE>
   </component>
 </project>

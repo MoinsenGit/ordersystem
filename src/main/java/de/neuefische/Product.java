@@ -7,8 +7,9 @@ import lombok.Data;
 @AllArgsConstructor
 
 public class Product {
-    String id;
-    String name;
+    String id; // Produkt-ID
+    String name; // Name des Produktes zur Produkt-ID
+
 
 }
 

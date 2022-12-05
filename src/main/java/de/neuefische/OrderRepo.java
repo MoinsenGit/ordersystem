@@ -13,7 +13,6 @@ public class OrderRepo {
 
     // Methode zum Auflisten aller Orders - da List<Order> orders private Methode nötig, um auf Listen zuzugreifen
     public List<Order> list() {
-
         return orders;
     }
 

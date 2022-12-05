@@ -10,12 +10,12 @@ import lombok.Data;
 
 
 public class ShopService {
-    ProductRepo productRepo;
-    OrderRepo orderRepo;
+   private ProductRepo productRepo;
+   private  OrderRepo orderRepo;
 
 
     public Product getProduct(String id) {
-        Product productFromListProducts = productRepo.getProduct(id);
+        Product productFromListProducts = productRepo.findProductById(id);
         return productFromListProducts;
     }
 
@@ -37,16 +37,18 @@ public class ShopService {
     // Zusätzlich kann er eine neue Bestellung aufgeben. Für jede neue
     // Bestellung möchte er die entsprechenden Produkt-Ids mitangeben.
 
-    public void addNewOrder(List<String> productIdsForOrder) {
+    public String addNewOrder(List<String> productIdsForOrder) {
         List<Product> products = new ArrayList<>();
         for (int i = 0; i < productIdsForOrder.size(); i++) {
             String productIdForOrder = productIdsForOrder.get(i);
-            Product productForOrder = productRepo.getProduct(productIdForOrder);
+            Product productForOrder = productRepo.findProductById(productIdForOrder);
             products.add(productForOrder);
         }
 
-        Order newOrder = new Order("Order Id 1", products); // neue Bestellung erstellt
+        int orderId = (int) Math.random();
+        Order newOrder = new Order("Order Id " + orderId, products); // neue Bestellung erstellt
         orderRepo.addOrder(newOrder); // neue Bestellung der Bestellliste hinzugefügt
+        return newOrder.getId();
     }
 
 }
